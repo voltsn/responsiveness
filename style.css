@@ -2,11 +2,32 @@
   body{
     background: red;
   }
+
+  #medium{
+    display: none;
+  }
+
+  #large{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 480px) and (max-width: 1023px) {
   body{
     background: green;
+  }
+
+  #small{
+    display: none;
+  }
+
+  
+  #medium{
+    display: block;
+  }
+
+  #large{
+    display: none;
   }
 }
 
@@ -14,4 +35,15 @@
   body{
     background: blue;
   }
+
+  #small{
+    display: none;
+  }
+
+  #medium{
+    display: none;
+  }
+
+  #large{
+    display: block;
 }
