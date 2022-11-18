@@ -1,6 +1,7 @@
 @media screen and (max-width: 479px) {
   body{
     background: red;
+    font-size: 90%;
   }
 
   #medium{
@@ -15,6 +16,7 @@
 @media screen and (min-width: 480px) and (max-width: 1023px) {
   body{
     background: green;
+    font-size: 115%;
   }
 
   #small{
@@ -34,6 +36,7 @@
 @media screen and (min-width: 1024px) {
   body{
     background: blue;
+    font-size: 125%;
   }
 
   #small{
