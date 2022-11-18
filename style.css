@@ -1,35 +1,32 @@
+body{
+  display: flex;
+}
+
 @media screen and (max-width: 479px) {
   body{
     background: red;
     font-size: 90%;
+    flex-direction: column;
   }
-
-  #medium{
-    display: none;
-  }
-
-  #large{
-    display: none;
-  }
-}
+ }
 
 @media screen and (min-width: 480px) and (max-width: 1023px) {
   body{
     background: green;
     font-size: 115%;
+    flex-wrap: wrap;
   }
 
   #small{
-    display: none;
+    width: 66%;
   }
 
-  
   #medium{
-    display: block;
+    width: 33%;
   }
 
   #large{
-    display: none;
+    flex:1 0 100%;
   }
 }
 
@@ -40,13 +37,14 @@
   }
 
   #small{
-    display: none;
+    width: 33%
   }
-
+  
   #medium{
-    display: none;
+    width: 33%;
   }
 
   #large{
-    display: block;
+    width: 33%;
+  }
 }
